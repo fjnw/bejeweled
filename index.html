@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Crystals Collector</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+
+<div class="container">
+
+	<div class="game">
+
+		<div class="instruction">
+			<h1>Instructions</h1>
+			<p>(1) Look at the magic number made for you.</p>
+			<p>(2) Each time you click a crystal you'll receive the amount of points that crystal has.</p>
+			<p>(3) Try to get your points to match the magic number. 
+		</div>
+
+		
+		<div class="counter">
+			<h1>
+				Magic Number:
+				<br>
+				<span id="magic"></span>
+			</h1>
+		</div>
+
+
+		<div class="counter">
+			<h1>
+				Your Number: 
+				<br>
+				<span id="player"></span>
+			</h1>
+		</div>
+
+
+		<div class="score">
+			<div class="score-inner">
+				<h1>
+					Wins: <span id="win"></span>
+				</h1>
+			</div>
+
+			<div class="score-inner">
+				<h1>
+					Losses: <span id="loss"></span>
+				</h1>
+			</div>
+
+			<div class="score-inner">
+				<h1>
+					Log: <span id="log"></span>
+				</h1>
+			</div>
+		</div>
+
+
+	</div>
+
+	<div class="crystals">
+		<img id="red" src="assets/images/red.png" alt="red crystal">
+		<img id="white" src="assets/images/white.png" alt="white crystal">
+		<img id="blue" src="assets/images/blue.png" alt="blue crystal">
+		<img id="green" src="assets/images/green.png" alt="green crystal">
+	</div>
+
+</div>
+
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
