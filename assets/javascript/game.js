@@ -81,9 +81,9 @@ function numberReset() {
 	white = Math.floor(Math.random() * (12))+1
 	blue = Math.floor(Math.random() * (12))+1
 	green = Math.floor(Math.random() * (12))+1
-	console.log("red = " + red);						// for cheaters or TAs
-	console.log("white = " + white);
-	console.log("blue = " + blue);
-	console.log("green = " + green);
+	// console.log("red = " + red);						// for cheaters or TAs
+	// console.log("white = " + white);
+	// console.log("blue = " + blue);
+	// console.log("green = " + green);
 }
 
