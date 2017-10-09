@@ -6,11 +6,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-size: 20pt;
+	font-size: 18pt;
 	text-align: center;
 }
 p{
-	font-size: 16pt;
+	font-size: 12pt;
 }
 
 img {
@@ -28,7 +28,7 @@ img {
 /*   CONTAINER  */
 .container {
 	text-align: center;
-	min-width: 980px;
+	min-width: 900px;
 }
 
 /*    GAME AREA: top row  */
@@ -49,12 +49,12 @@ img {
 	padding: 0 20px;
 }
 	.counter {
-		width: 250px;
+		width: 200px;
 		border-right: 4px solid pink;
 ;
 	}
 	.score {
-		width: 320px;
+		width: 300px;
 	}
 
 .score-inner {
@@ -66,7 +66,7 @@ img {
 	}
 
 	#magic, #player {
-		font-size: 70pt;
+		font-size: 60pt;
 	}
 
 	#log {
